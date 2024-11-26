@@ -1,0 +1,54 @@
+:root {
+    --primaryColor: #0B71E8;
+    --primaryHover: #0984e3;
+    --primaryColor2: #94B3FD;
+    --redColor: #F03C3D;
+    --redHover: #f14c4c;
+     --orangeColor: #F58840;
+    --orangeHover: rgba(255, 200, 152, .6);
+       --greenColor: #19C796;
+    --greenHover: #2ddaa9;
+    --whiteColor: #fff;
+    --whiteTransparent: rgba(255, 255, 255, .6);
+    --whiteHover: #d8d9da;
+    --lightColor: #f1f2f6;
+    --lightColor2: #fcfcfc;
+    --lightHover: #d8d9da;
+    --grey: #f5f5f5;
+    --text-grey: #8390A2;
+    --yellowColor: #f9ca24;
+    --yellowHover: #d4a704;
+    --darkColor: #111;
+    --black1: #222;
+    --blue: rgb(68, 171, 255);
+    --darkHover: rgb(24, 24, 24);
+    --space5: .5rem;
+    --space8: .8rem;
+    --spaceS: 1.2rem;
+    --spaceM: 2.4rem;
+    --spaceL: 3.2rem;
+}
+
+@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+    .blur-dark {
+        background-color: rgba(0, 0, 0, .4);
+        -webkit-backdrop-filter: blur(7px);
+        backdrop-filter: blur(7px);
+    }
+
+    .blur-white-sm {
+        background-color: rgba(255, 255, 255, .4);
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);
+    }
+    .blur-white-md {
+        background-color: rgba(255, 255, 255, .6);
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+    }
+     .blur-white-lg {
+        background-color: rgba(255, 255, 255, .8);
+        -webkit-backdrop-filter: blur(15px);
+        backdrop-filter: blur(15px);
+    }
+}
